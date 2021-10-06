@@ -49,6 +49,18 @@
     <Filter Include="Header Files\Components">
       <UniqueIdentifier>{000505f4-d157-4ed2-a6cb-5c5d53cc6369}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Control flow">
+      <UniqueIdentifier>{145edc46-0f60-44de-ab08-344daaa4effa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control flow">
+      <UniqueIdentifier>{908485df-3d55-4426-9bff-e028e2067ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Display">
+      <UniqueIdentifier>{68cdaa87-3a94-44dc-a42c-3fc3d4a107e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{ad60dc5d-5137-4256-aeb3-b8f3269a9777}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alex.h">
@@ -105,20 +117,23 @@
     <ClInclude Include="Boss.h">
       <Filter>Header Files\Levels\dungeon</Filter>
     </ClInclude>
-    <ClInclude Include="SceneMgmt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Input.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Initialization.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Window.h">
+    <ClInclude Include="Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SceneMgmt.h">
+      <Filter>Header Files\Control flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
     <ClInclude Include="Renderer.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Display</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -179,23 +194,26 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Loop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneMgmt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Initialization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Window.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="SceneMgmt.cpp">
+      <Filter>Source Files\Control flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Source Files\Control flow</Filter>
     </ClCompile>
     <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Display</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

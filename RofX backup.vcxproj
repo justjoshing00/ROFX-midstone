@@ -40,6 +40,7 @@
     <ClInclude Include="States.h" />
     <ClInclude Include="store.h" />
     <ClInclude Include="Storeroom.h" />
+    <ClInclude Include="Timer.h" />
     <ClInclude Include="town.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
@@ -67,6 +68,7 @@
     <ClCompile Include="States.cpp" />
     <ClCompile Include="store.cpp" />
     <ClCompile Include="Storeroom.cpp" />
+    <ClCompile Include="Timer.cpp" />
     <ClCompile Include="town.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
